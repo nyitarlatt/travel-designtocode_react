@@ -13,12 +13,15 @@ import {
 } from "./components";
 
 import "./dist/tailwind.css";
+import "./app.css";
 
 const App = () => {
   return (
     <div className="App">
-      <Navbar />
-      <Home />
+      <div id="bg1">
+        <Navbar />
+        <Home />
+      </div>
       <Category />
       <TopSelling />
       <Booking />

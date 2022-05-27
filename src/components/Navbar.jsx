@@ -11,7 +11,7 @@ const Navbar = () => {
   const displayMenu = () => {};
 
   return (
-    <div>
+    <div id="navbar">
       <div className="w-4/5 mx-auto flex justify-between py-8 relative">
         <div className="flex items-center">
           <img src={Logo} alt="logo" />
@@ -48,7 +48,7 @@ const Navbar = () => {
           />
         </div>
         {showMenu && (
-          <div className="absolute top-10 right-0 w-1/4 bg-white text-sm text-black flex flex-col px-2 border-2">
+          <div className="absolute top-10 right-0 w-1/4 bg-white text-sm text-black flex flex-col  border-2">
             <div
               className="text-2xl ml-auto pr-2 cursor-pointer"
               onClick={() => {
@@ -59,35 +59,35 @@ const Navbar = () => {
             </div>
             <a
               href="#"
-              className="hover:bg-travelBlack hover:text-white  w-full py-2 border-b-2 border-black"
+              className="hover:bg-travelTextLight hover:text-white  w-full py-2 px-2 "
             >
               Destinations
             </a>
             <a
               href="#"
-              className="hover:bg-travelBlack hover:text-white  w-full py-2 border-b-2 border-black"
+              className="hover:bg-travelTextLight hover:text-white  w-full py-2 px-2 "
             >
               Hotels
             </a>
             <a
               href="#"
-              className="hover:bg-travelBlack hover:text-white  w-full py-2 border-b-2 border-black"
+              className="hover:bg-travelTextLight hover:text-white  w-full py-2 px-2 "
             >
               Flights
             </a>
             <a
               href="#"
-              className="hover:bg-travelBlack hover:text-white  w-full py-2 border-b-2 border-black"
+              className="hover:bg-travelTextLight hover:text-white  w-full py-2 px-2 "
             >
               Bookings
             </a>
-            <div className="hover:bg-travelBlack hover:text-white  w-full py-2 border-b-2 border-black">
+            <div className="hover:bg-travelTextLight hover:text-white  w-full py-2 px-2 ">
               Login
             </div>
-            <div className="hover:bg-travelBlack hover:text-white  w-full py-2 border-b-2 border-black">
+            <div className="hover:bg-travelTextLight hover:text-white  w-full py-2 px-2 ">
               Sign Up
             </div>
-            <div className="hover:bg-travelBlack hover:text-white  w-full py-2 border-b-2 border-black">
+            <div className="hover:bg-travelTextLight hover:text-white  w-full py-2 px-2 ">
               En
             </div>
           </div>
