@@ -11,7 +11,7 @@ const Home = () => {
           <p classname="font-poppins">
             Built Wicket longer admire do barton vanity itself do in it.
             Preferred to sportsmen it engrossed listening. Park gate sell they
-            west hard for the.
+            west hard for the
           </p>
           <div className="flex space-x-10">
             <div>a</div>
