@@ -48,7 +48,7 @@ const Navbar = () => {
           />
         </div>
         {showMenu && (
-          <div className="absolute top-10 right-0 w-1/4 bg-white text-sm text-black flex flex-col  border-2">
+          <div className="absolute top-10 right-0 w-1/2 lg:w-1/3 bg-white text-sm text-black flex flex-col  border-2">
             <div
               className="text-2xl ml-auto pr-2 cursor-pointer"
               onClick={() => {
